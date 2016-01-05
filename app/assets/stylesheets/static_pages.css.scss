@@ -1,7 +1,7 @@
 
 /***** Navbar *****/
 
-nav {
+.navbar {
 	border: none;
 	font-family: 'Roboto', Helvetica, sans-serif;
 	text-transform: uppercase;
@@ -25,13 +25,22 @@ h2 {
 
 h1 {
 	font-weight: 400;
-	margin-top: 10%;
+	margin-top: 2.5em;
 	letter-spacing: .05em;
 }
 
 h2 {
 	color: grey;
 	font-weight: 300;
+}
+
+#mainpics {
+	display: block;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 /***** Footer *****/
