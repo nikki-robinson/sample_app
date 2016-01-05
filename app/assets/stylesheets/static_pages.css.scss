@@ -1,0 +1,44 @@
+
+/***** Navbar *****/
+
+nav {
+	border: none;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+a {
+	color: white;
+	font-weight: 100;
+	letter-spacing: .05em;
+}
+
+/***** Main Area *****/
+
+h1,
+h2 {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-weight: 400;
+	margin-top: 10%;
+	letter-spacing: .05em;
+}
+
+h2 {
+	color: grey;
+	font-weight: 300;
+}
+
+/***** Footer *****/
+
+footer {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
