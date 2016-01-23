@@ -1,0 +1,7 @@
+class StaticPagesController < ApplicationController
+	layout "static"
+
+def index
+	@products = Product.all
+	render layout: "products"
+end
