@@ -1,12 +1,13 @@
 
 
 <!-- CAROUSEL -->
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div class="container-fluid">
+<div id="main-carousel" class="carousel slide" data-ride="carousel">
   
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <% @products.each do |product| %>
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="<%= "active" if product == @products.first %>"></li>
+    <li data-target="#main-carousel" data-slide-to="0" class="<%= "active" if product == @products.first %>"></li>
     <% end %>
   </ol>
 
@@ -23,13 +24,14 @@
   </div>
 
   <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <a class="left carousel-control" href="#main-carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+  <a class="right carousel-control" href="#main-carousel" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
 </div>
 <!-- END CAROUSEL -->

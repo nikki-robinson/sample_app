@@ -1,3 +1,5 @@
+* { box-sizing: border-box; }
+
 
 /***** Navbar *****/
 
@@ -7,7 +9,7 @@
 	text-transform: uppercase;
 }
 
-a {
+#nametitle {
 	color: white;
 	font-weight: 100;
 	letter-spacing: .05em;
@@ -34,8 +36,27 @@ h2 {
 	font-weight: 300;
 }
 
-#mainpics {
-	display: block;
+p {
+	text-align: center;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #a3cfc9;
+	background-color: transparent;
+}
+
+a:visited {
+	color: grey;
+	text-decoration: none;
+}
+
+#productgrid {
 	margin: auto;
 	position: relative;
 	text-align: center;
@@ -43,12 +64,28 @@ h2 {
 	margin-right: 15%;
 }
 
+
 /***** Carousel *****/
 
+#main-carousel {
+	width: 50%;
+	margin: auto;
+	position: relative;
+}
+
+.carousel-caption {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	text-transform: uppercase;
+}
 
 .carousel-control.right,
 .carousel-control.left {
   background-image: none;
+}
+
+.carousel-control.right:hover,
+.carousel-control.left:hover {
+	background-color: transparent;
 }
 
 
@@ -58,5 +95,6 @@ footer {
 	font-family: 'Roboto', Helvetica, sans-serif;
 	margin-left: 20px;
 	margin-right: 20px;
+	margin-top: 30px;
 	text-align: center;
 }
