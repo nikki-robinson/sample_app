@@ -53,8 +53,13 @@
       </div>
     </nav>
 
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+  <% if notice %>
+    <p class="alert alert-info"><%= notice %></p>
+  <% end %>
+
+  <% if alert %>
+    <p class="alert alert-info"><%= alert %></p>
+  <% end %>
 
   <div class="container" id="siteheader">
     <h1>Nikki Robinson</h1>
