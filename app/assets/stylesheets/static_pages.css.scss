@@ -28,7 +28,6 @@ h2 {
 
 h1 {
 	font-weight: 400;
-	margin-top: 2.5em;
 	letter-spacing: .05em;
 }
 
@@ -55,6 +54,11 @@ a:hover {
 a:visited {
 	color: grey;
 	text-decoration: none;
+}
+
+#siteheader {
+	margin-bottom: 3%;
+	margin-top: 2%;
 }
 
 #productgrid {
