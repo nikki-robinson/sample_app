@@ -11,14 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-ActiveRecord::Schema.define(version: 20160218010713) do
-=======
 ActiveRecord::Schema.define(version: 20160306215104) do
-=======
-ActiveRecord::Schema.define(version: 20160223235432) do
->>>>>>> e2f62ce775bffe0e5413697331465fef1c4c50d0
 
   create_table "comments", force: :cascade do |t|
     t.integer  "user_id"
@@ -31,10 +24,6 @@ ActiveRecord::Schema.define(version: 20160223235432) do
 
   add_index "comments", ["product_id"], name: "index_comments_on_product_id"
   add_index "comments", ["user_id"], name: "index_comments_on_user_id"
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> e2f62ce775bffe0e5413697331465fef1c4c50d0
 
   create_table "orders", force: :cascade do |t|
     t.integer "user_id"

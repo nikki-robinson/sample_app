@@ -29,6 +29,7 @@ h2 {
 h1 {
 	font-weight: 400;
 	letter-spacing: .05em;
+	margin-top: 1.5em;
 }
 
 h2 {
@@ -91,6 +92,14 @@ a:visited {
 .carousel-control.right:hover,
 .carousel-control.left:hover {
 	background-color: transparent;
+}
+
+/***** Contact Page *****/
+
+#contactform {
+	margin: auto;
+	position: relative;
+	width: 50%;
 }
 
 
