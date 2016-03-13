@@ -12,6 +12,7 @@ class UserMailer < ApplicationMailer
 		@appname = "Nikki's Photos"
 		mail( :to => user.email,
 			:subject => "Welcome to #{@appname}!")
+	end
 
 	def thank_you
 		@name = params[:name]
