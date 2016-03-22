@@ -38,6 +38,8 @@ group :development, :test do
   gem 'sqlite3'
 
   gem 'rspec-rails', '~> 3.0'
+
+  gem "factory_girl_rails", "~> 4.0"
   
 end
 
@@ -59,3 +61,5 @@ gem 'devise'
 gem 'cancancan'
 
 gem 'will_paginate', '~> 3.0.5'
+
+
