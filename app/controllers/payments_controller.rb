@@ -13,6 +13,7 @@ class PaymentsController < ApplicationController
       			:description => params[:stripeEmail]
     		)
     		if charge.paid
+    			byebug
 				Order.create(
 					:product_id => @product.id,
 					:user_id => current_user,
