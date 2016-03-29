@@ -73,4 +73,4 @@ gem 'will_paginate', '~> 3.0.5'
 
 gem 'stripe'
 
-
+gem "brakeman", :require => false
