@@ -20,7 +20,7 @@
         <% end %></p>
 
       <% end %>
-      
+
     </div>
     <div class="col-md-6">
       <p>Want more information? Just ask!</p>
@@ -45,6 +45,7 @@
 
 
 
-
-<%= link_to 'Edit', edit_product_path(@product) %> |
+<% if current_user && current_user.admin? %>
+  <%= link_to 'Edit', edit_product_path(@product) %> |
+<% end %>
 <%= link_to 'Back', products_path %>
